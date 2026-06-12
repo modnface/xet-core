@@ -40,7 +40,7 @@ tracing = { workspace = true }
 ulid = { workspace = true }
 url = { workspace = true }
 walkdir = { workspace = true }
-pyo3 = { version = "0.26", features = ["abi3-py37"], optional = true }
+pyo3 = { version = "0.28", features = ["abi3-py37"], optional = true }
 
 [target.'cfg(target_family = "wasm")'.dependencies]
 tokio = { workspace = true, features = [
