@@ -78,7 +78,7 @@ mockall = "0.14"
 more-asserts = "0.3"
 oneshot = "0.1"
 pin-project = "1"
-pyo3 = { version = "0.26", features = ["abi3-py37", "multiple-pymethods"] }
+pyo3 = { version = "0.28", features = ["abi3-py37", "multiple-pymethods"] }
 rand = "0.9"
 rand_chacha = "0.9"
 regex = "1"
